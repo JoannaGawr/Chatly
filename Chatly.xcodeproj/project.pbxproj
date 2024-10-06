@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C401CAAD2CB2E79400A5BC9C /* ChatlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CAAC2CB2E79400A5BC9C /* ChatlyApp.swift */; };
+		C401CAAF2CB2E79400A5BC9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CAAE2CB2E79400A5BC9C /* ContentView.swift */; };
+		C401CAB12CB2E79700A5BC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C401CAB02CB2E79700A5BC9C /* Assets.xcassets */; };
+		C401CAB42CB2E79700A5BC9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C401CAB32CB2E79700A5BC9C /* Preview Assets.xcassets */; };
+		C401CABE2CB2E79800A5BC9C /* ChatlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CABD2CB2E79800A5BC9C /* ChatlyTests.swift */; };
+		C401CAC82CB2E79800A5BC9C /* ChatlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CAC72CB2E79800A5BC9C /* ChatlyUITests.swift */; };
+		C401CACA2CB2E79800A5BC9C /* ChatlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401CAC92CB2E79800A5BC9C /* ChatlyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C401CABA2CB2E79800A5BC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C401CAA12CB2E79400A5BC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C401CAA82CB2E79400A5BC9C;
+			remoteInfo = Chatly;
+		};
+		C401CAC42CB2E79800A5BC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C401CAA12CB2E79400A5BC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C401CAA82CB2E79400A5BC9C;
+			remoteInfo = Chatly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C401CAA92CB2E79400A5BC9C /* Chatly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401CAAC2CB2E79400A5BC9C /* ChatlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyApp.swift; sourceTree = "<group>"; };
+		C401CAAE2CB2E79400A5BC9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C401CAB02CB2E79700A5BC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C401CAB32CB2E79700A5BC9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C401CAB92CB2E79800A5BC9C /* ChatlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401CABD2CB2E79800A5BC9C /* ChatlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyTests.swift; sourceTree = "<group>"; };
+		C401CAC32CB2E79800A5BC9C /* ChatlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401CAC72CB2E79800A5BC9C /* ChatlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyUITests.swift; sourceTree = "<group>"; };
+		C401CAC92CB2E79800A5BC9C /* ChatlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C401CAA62CB2E79400A5BC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401CAB62CB2E79800A5BC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401CAC02CB2E79800A5BC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C401CAA02CB2E79400A5BC9C = {
+			isa = PBXGroup;
+			children = (
+				C401CAAB2CB2E79400A5BC9C /* Chatly */,
+				C401CABC2CB2E79800A5BC9C /* ChatlyTests */,
+				C401CAC62CB2E79800A5BC9C /* ChatlyUITests */,
+				C401CAAA2CB2E79400A5BC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C401CAAA2CB2E79400A5BC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C401CAA92CB2E79400A5BC9C /* Chatly.app */,
+				C401CAB92CB2E79800A5BC9C /* ChatlyTests.xctest */,
+				C401CAC32CB2E79800A5BC9C /* ChatlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C401CAAB2CB2E79400A5BC9C /* Chatly */ = {
+			isa = PBXGroup;
+			children = (
+				C401CAAC2CB2E79400A5BC9C /* ChatlyApp.swift */,
+				C401CAAE2CB2E79400A5BC9C /* ContentView.swift */,
+				C401CAB02CB2E79700A5BC9C /* Assets.xcassets */,
+				C401CAB22CB2E79700A5BC9C /* Preview Content */,
+			);
+			path = Chatly;
+			sourceTree = "<group>";
+		};
+		C401CAB22CB2E79700A5BC9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C401CAB32CB2E79700A5BC9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C401CABC2CB2E79800A5BC9C /* ChatlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C401CABD2CB2E79800A5BC9C /* ChatlyTests.swift */,
+			);
+			path = ChatlyTests;
+			sourceTree = "<group>";
+		};
+		C401CAC62CB2E79800A5BC9C /* ChatlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C401CAC72CB2E79800A5BC9C /* ChatlyUITests.swift */,
+				C401CAC92CB2E79800A5BC9C /* ChatlyUITestsLaunchTests.swift */,
+			);
+			path = ChatlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C401CAA82CB2E79400A5BC9C /* Chatly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C401CACD2CB2E79800A5BC9C /* Build configuration list for PBXNativeTarget "Chatly" */;
+			buildPhases = (
+				C401CAA52CB2E79400A5BC9C /* Sources */,
+				C401CAA62CB2E79400A5BC9C /* Frameworks */,
+				C401CAA72CB2E79400A5BC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatly;
+			productName = Chatly;
+			productReference = C401CAA92CB2E79400A5BC9C /* Chatly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C401CAB82CB2E79800A5BC9C /* ChatlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C401CAD02CB2E79800A5BC9C /* Build configuration list for PBXNativeTarget "ChatlyTests" */;
+			buildPhases = (
+				C401CAB52CB2E79800A5BC9C /* Sources */,
+				C401CAB62CB2E79800A5BC9C /* Frameworks */,
+				C401CAB72CB2E79800A5BC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C401CABB2CB2E79800A5BC9C /* PBXTargetDependency */,
+			);
+			name = ChatlyTests;
+			productName = ChatlyTests;
+			productReference = C401CAB92CB2E79800A5BC9C /* ChatlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C401CAC22CB2E79800A5BC9C /* ChatlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C401CAD32CB2E79800A5BC9C /* Build configuration list for PBXNativeTarget "ChatlyUITests" */;
+			buildPhases = (
+				C401CABF2CB2E79800A5BC9C /* Sources */,
+				C401CAC02CB2E79800A5BC9C /* Frameworks */,
+				C401CAC12CB2E79800A5BC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C401CAC52CB2E79800A5BC9C /* PBXTargetDependency */,
+			);
+			name = ChatlyUITests;
+			productName = ChatlyUITests;
+			productReference = C401CAC32CB2E79800A5BC9C /* ChatlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C401CAA12CB2E79400A5BC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C401CAA82CB2E79400A5BC9C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C401CAB82CB2E79800A5BC9C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C401CAA82CB2E79400A5BC9C;
+					};
+					C401CAC22CB2E79800A5BC9C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C401CAA82CB2E79400A5BC9C;
+					};
+				};
+			};
+			buildConfigurationList = C401CAA42CB2E79400A5BC9C /* Build configuration list for PBXProject "Chatly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C401CAA02CB2E79400A5BC9C;
+			productRefGroup = C401CAAA2CB2E79400A5BC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C401CAA82CB2E79400A5BC9C /* Chatly */,
+				C401CAB82CB2E79800A5BC9C /* ChatlyTests */,
+				C401CAC22CB2E79800A5BC9C /* ChatlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C401CAA72CB2E79400A5BC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401CAB42CB2E79700A5BC9C /* Preview Assets.xcassets in Resources */,
+				C401CAB12CB2E79700A5BC9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401CAB72CB2E79800A5BC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401CAC12CB2E79800A5BC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C401CAA52CB2E79400A5BC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401CAAF2CB2E79400A5BC9C /* ContentView.swift in Sources */,
+				C401CAAD2CB2E79400A5BC9C /* ChatlyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401CAB52CB2E79800A5BC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401CABE2CB2E79800A5BC9C /* ChatlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C401CABF2CB2E79800A5BC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401CAC82CB2E79800A5BC9C /* ChatlyUITests.swift in Sources */,
+				C401CACA2CB2E79800A5BC9C /* ChatlyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C401CABB2CB2E79800A5BC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C401CAA82CB2E79400A5BC9C /* Chatly */;
+			targetProxy = C401CABA2CB2E79800A5BC9C /* PBXContainerItemProxy */;
+		};
+		C401CAC52CB2E79800A5BC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C401CAA82CB2E79400A5BC9C /* Chatly */;
+			targetProxy = C401CAC42CB2E79800A5BC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C401CACB2CB2E79800A5BC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C401CACC2CB2E79800A5BC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C401CACE2CB2E79800A5BC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chatly/Preview Content\"";
+				DEVELOPMENT_TEAM = BS839KG766;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JG.Chatly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C401CACF2CB2E79800A5BC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chatly/Preview Content\"";
+				DEVELOPMENT_TEAM = BS839KG766;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JG.Chatly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C401CAD12CB2E79800A5BC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BS839KG766;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JG.ChatlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chatly";
+			};
+			name = Debug;
+		};
+		C401CAD22CB2E79800A5BC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BS839KG766;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JG.ChatlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chatly";
+			};
+			name = Release;
+		};
+		C401CAD42CB2E79800A5BC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BS839KG766;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JG.ChatlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatly;
+			};
+			name = Debug;
+		};
+		C401CAD52CB2E79800A5BC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BS839KG766;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JG.ChatlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C401CAA42CB2E79400A5BC9C /* Build configuration list for PBXProject "Chatly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401CACB2CB2E79800A5BC9C /* Debug */,
+				C401CACC2CB2E79800A5BC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C401CACD2CB2E79800A5BC9C /* Build configuration list for PBXNativeTarget "Chatly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401CACE2CB2E79800A5BC9C /* Debug */,
+				C401CACF2CB2E79800A5BC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C401CAD02CB2E79800A5BC9C /* Build configuration list for PBXNativeTarget "ChatlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401CAD12CB2E79800A5BC9C /* Debug */,
+				C401CAD22CB2E79800A5BC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C401CAD32CB2E79800A5BC9C /* Build configuration list for PBXNativeTarget "ChatlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C401CAD42CB2E79800A5BC9C /* Debug */,
+				C401CAD52CB2E79800A5BC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C401CAA12CB2E79400A5BC9C /* Project object */;
+}
